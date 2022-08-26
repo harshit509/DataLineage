@@ -1,0 +1,9 @@
+.contact-heading{
+    text-decoration:underline;
+    margin: 70px 100px 20px 200px; 
+    color: rgba(0, 0, 0, 0.605);
+}
+.hr{
+    margin-right: 200px;
+    margin-left: 200px;
+}
