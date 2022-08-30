@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () => {
   return (
     <>
-    <h3 style={{color:"black",fontWeight:"700",            marginLeft:"2rem",
+    <h3 style={{color:"black",fontWeight:"700",    marginLeft:"2rem",
 }}>Home Page Design</h3>
     
     <header

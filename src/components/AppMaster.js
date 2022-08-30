@@ -128,9 +128,9 @@ const AppMaster = () => {
         <input type="number" name="ID" required="required" placeholder='Enter ID' onChange={handleAddFormChange} />
         <input type="text" name="Internal_Purchased" required="required" placeholder='Enter Internal/Purchased' onChange={handleAddFormChange} />
         <input type="text" name="Portfolio" required="required" placeholder='Enter Portfolio' onChange={handleAddFormChange} />
-        <input type="text" name="Sub_App_Area" required="required" placeholder='Enter Sub-APP-AREA' onChange={handleAddFormChange} />
-        <input type="text" name="App_Acronym" required="required" placeholder='App_Acronym' onChange={handleAddFormChange} />
-        <input type="text" name="App_Name" required="required" placeholder='Enter App Name' onChange={handleAddFormChange} />
+        <input type="text" name="Sub_App_Area" required="required" placeholder='Enter Sub-Application' onChange={handleAddFormChange} />
+        <input type="text" name="App_Acronym" required="required" placeholder='Application_Acronym' onChange={handleAddFormChange} />
+        <input type="text" name="App_Name" required="required" placeholder='Enter Application Name' onChange={handleAddFormChange} />
         <input type="text" name="Notes" required="required" placeholder='Enter Notes' onChange={handleAddFormChange} />
 
         <button type="Submit">ADD</button>
@@ -142,9 +142,9 @@ const AppMaster = () => {
               <th>Id</th>
               <th>Internal/Purchased</th>
               <th>Portfolio</th>
-              <th>Sub-APP-Area</th>
-              <th>App/Acronyms</th>
-              <th>App Name</th>
+              <th>SubArea</th>
+              <th>Application/Acronyms</th>
+              <th>Application Name</th>
               <th>Notes</th>
               <th>Action</th>
             </tr>

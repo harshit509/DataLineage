@@ -13,8 +13,11 @@ const EditableRow = ({ handleEditFormChange, editFormData ,handleCancelClick}) =
            <td> <input type="text" name="App_Acronym" required="required" placeholder='App_Acronym' value={editFormData.App_Acronym} onChange={handleEditFormChange} /></td>
            <td> <input type="text" name="App_Name" required="required" placeholder='Enter App Name' value={editFormData.App_Name} onChange={handleEditFormChange} /></td>
             <td><input type="text" name="Notes" required="required" placeholder='Enter Notes' value={editFormData.Notes} onChange={handleEditFormChange} /></td>
+           
             <td><button type="Submit"> Save </button></td>
             <td><button type ="Submit" onClick={handleCancelClick}>Cancel</button></td>
+            <td><button type ="Submit" >Extract</button></td>
+            
             </tr>
 
         </>
